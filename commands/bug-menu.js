@@ -1,9 +1,9 @@
 
 import configManager from '../utils/manageConfigs.js'
 
-import { BOT_NAME } from 'HASEEB_MD_BOT'
 
-import { OWNER_NAME } from 'FAMOUS_HASEEB'
+
+
 
 export async function bugMenu(message, client) {
 
@@ -27,7 +27,7 @@ export async function bugMenu(message, client) {
 
     const t = ` 
 ╭────────────────╮
-    ༒ ${HASEEB_MD_BOT} ༒
+    ༒ HASEEB_MD ༒
 ╰────────────────╯
 ╭────────────────╮
 │ Prefix : ${configManager.config.users[number].prefix}
